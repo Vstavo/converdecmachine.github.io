@@ -1,0 +1,95 @@
+.sobre {
+    border-radius: 6px;
+    background: var(--cinza-escuro);
+    padding: 0rem 0.25rem 0rem 0.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 50vw;
+}
+
+.sobre__hero {
+    background: var(--color8);
+    padding: 3rem;
+    border-radius: 6px;
+    border: solid 4px var(--cinza-escuro);
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
+    color: var(--azul-tres);
+}
+
+.sobre__title{
+    background: linear-gradient(45deg, var(--azul-um), var(--azul-quatro));
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2rem;
+}
+
+.sobre__features{
+    border-radius: 6px;
+    border: solid 4px var(--cinza-escuro);
+    background-color: #2e2e2e;
+    color: var(--azul-tres);
+    padding: 2rem;
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre__features-item{
+    margin-bottom: 0.5rem;
+}
+
+.sobre__technologies-item{
+    margin-bottom: 0.5rem;
+}
+
+.sobre__subtitle{
+    color: aliceblue;
+    margin-bottom: 2rem;
+}
+
+.sobre__technologies{
+    border-radius: 6px;
+    border: solid 4px var(--cinza-escuro);
+    background-color: #1a1a1a;
+    color: var(--azul-tres);
+    padding: 2rem;
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre__footer{
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(45deg, var(--azul-dois), var(--laranja));
+    border: solid 4px var(--cinza-escuro);
+    margin-bottom: 0.25rem;
+    z-index: 1;
+}
+
+.sobre__footer-contact{
+    text-decoration: none;
+    margin-top: 2rem;
+    color: var(--cinza-escuro);
+    font-weight: 600;
+}
+
+.sobre__footer-text{
+    color: var(--cinza-escuro);
+    font-weight: 600;
+}
+
+.sobre__footer-contact--link{
+    text-decoration: none;
+    font-weight: 900;
+    color: var(--cinza-medio);
+}
