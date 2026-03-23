@@ -29,17 +29,12 @@
     }
 }
 
-.conversorPage{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow-y: hidden;
-    height: 82vh;
-}
-
 .converter {
     animation: fadeInTop 1.25s ease-out;
-
+    
+    position: relative;
+    top: 10vh;
+    left: 8vw;
     background-color: #1a1a1a;
     padding: 20px;
     border-radius: 4px;
@@ -266,6 +261,7 @@
     height: 235px;
     margin: 0.75rem 0rem 1rem 3rem;
 }
+
 
 .navbar__button-btn{
     padding: 10px;

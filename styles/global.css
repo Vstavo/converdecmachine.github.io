@@ -56,12 +56,24 @@ body {
     z-index: 1000;
 }
 
+.header__home{
+    display: flex;
+    flex-direction: row;
+}
+
 .header .header__title{
     display: flex;
     align-items: center;
     color: aliceblue;
-    margin-left: 5vw;
     cursor: pointer;
+}
+
+.header__icon{
+    align-items: center;
+    justify-content: center;
+    margin-left: 5vw;
+    margin-right: 2vw;
+    font-size: 32px;
 }
 
 .header .header__nav{

@@ -9,18 +9,23 @@
     <link rel="stylesheet" href="./styles/conversor.css">
     <link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="./styles/sobre.css">
+    <link rel="stylesheet" href="./styles/resp.css">
 </head>
 
 <body>
 
     <header class="header">
-        <h1 class="header__title" data-page="home">🧠 ConverDec Machine</h1>
+        <div class="header__home">
+            <span class="header__icon" data-page="home">🧠</span>
+            <h1 class="header__title" data-page="home"> ConverDec Machine</h1>
+        </div>
 
         <nav class="header__nav">
             <button class="header__nav-btn header__nav-btn--home" data-page="home">Home</button>
             <button class="header__nav-btn header__nav-btn--conversor" data-page="conversor">Conversor</button>
             <button class="header__nav-btn header__nav-btn--about" data-page="sobre">Sobre</button>
         </nav>
+
     </header>
 
     <hr class="header__divider">
