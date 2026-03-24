@@ -210,7 +210,7 @@
         text-transform: uppercase;
         color: aliceblue;
         font-weight: 600;
-        font-size: 10px;
+        font-size: 8px;
         cursor: pointer;
         transition: all 0.2s ease-out;
     }
